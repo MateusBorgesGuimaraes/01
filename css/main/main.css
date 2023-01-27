@@ -1,0 +1,71 @@
+.content-bg {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+}
+
+.intro-h1 {
+  padding-top: 100px;
+  padding-bottom: 32px;
+  font-family: "bangers";
+  color: #3c4048;
+  font-size: 72px;
+  grid-column: 2/3;
+  text-align: center;
+}
+
+.bat-imagem {
+  display: grid;
+  padding-top: 108px;
+  height: 400px;
+  grid-column: 2/-1;
+}
+
+.bat-imagem img {
+  justify-self: end;
+}
+
+/* spider */
+
+.spider-imagem {
+  display: grid;
+  padding-top: 108px;
+  height: 400px;
+  grid-column: 1/4;
+}
+
+.spider-imagem img {
+  justify-self: start;
+}
+
+/* panther */
+
+.panther-imagem {
+  display: grid;
+  padding-top: 108px;
+  height: 400px;
+  grid-column: 2/-1;
+}
+
+.panther-imagem img {
+  justify-self: end;
+}
+
+@media (min-width: 1600px) {
+  .bat-imagem,
+  .spider-imagem,
+  .panther-imagem {
+    padding-top: 0px;
+    height: 600px;
+    grid-column: 2;
+  }
+
+  .bat-imagem img,
+  .spider-imagem img,
+  .panther-imagem img {
+    justify-self: center;
+  }
+
+  .intro-h1 {
+    padding-bottom: 72px;
+  }
+}

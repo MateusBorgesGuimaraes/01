@@ -1,0 +1,54 @@
+.main-panther {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+}
+
+.main-h1 {
+  padding-top: 100px;
+  align-self: center;
+  font-family: "bangers";
+  color: #3c4048;
+  font-size: 164px;
+  text-align: center;
+  grid-column: 2/4;
+}
+
+.panther-img {
+  margin-top: 72px;
+  grid-column: 2;
+}
+
+/* texto  */
+
+.panther-txt {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #3c4048;
+  margin-top: 72px;
+  grid-column: 3;
+  margin-left: 30px;
+  max-width: 45ch;
+}
+
+/* video  */
+
+.panther-video {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+}
+
+.panther-video h2 {
+  padding-top: 108px;
+  grid-column: 2/-1;
+  font-family: "Bangers";
+  font-size: 36px;
+  color: #3c4048;
+}
+
+.panther-video iframe {
+  justify-self: center;
+  padding-top: 72px;
+  grid-column: 1/-1;
+  grid-row: 3;
+}

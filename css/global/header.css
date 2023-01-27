@@ -1,0 +1,66 @@
+.header-bg {
+  background-color: #00abb3;
+  color: #3c4048;
+}
+
+.header-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 45px;
+  padding-right: 45px;
+  align-items: center;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  font-family: "bangers";
+  color: #3c4048;
+  font-size: 24px;
+}
+
+.header-menu li:hover {
+  color: #eaeaea;
+}
+
+.header-menu a {
+  display: inline-block;
+  padding: 16px 0px;
+  position: relative;
+}
+
+.header-menu a::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 0px;
+  background: #eaeaea;
+  margin-top: 4px;
+  transition: 0.3s;
+  position: absolute;
+}
+
+.header-menu a:hover:after {
+  width: 100%;
+}
+
+@media (max-width: 720px) {
+  .header-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 16px;
+    /* padding-bottom: 16px; */
+    padding-left: 45px;
+    padding-right: 45px;
+    align-items: center;
+  }
+
+  .header-container img {
+    margin-bottom: 16px;
+  }
+}

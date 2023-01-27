@@ -1,0 +1,20 @@
+/* Global  */
+@import "./global/global.css";
+@import "./global/header.css";
+@import "./global/footer.css";
+@import "./global/utilidade.css";
+
+/* Home */
+@import "/css/main/main.css";
+
+/* Batman */
+@import "./batman/batman.css";
+
+/* Spider-Man  */
+@import "./spiderman/spider.css";
+
+/* Black-Panther */
+@import "./blackpanther/panther.css";
+
+/* Contato */
+@import "./contato/contato.css";

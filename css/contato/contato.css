@@ -1,0 +1,89 @@
+.main-cont {
+  display: grid;
+  grid-template-columns: 1fr 3fr 2fr 1fr;
+}
+
+.form {
+  align-self: center;
+  padding-top: 72px;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.spidercont-img {
+  padding-top: 72px;
+  grid-column: 3;
+}
+
+.spidercont-img img {
+  border-radius: 10px;
+}
+
+form {
+  width: 400px;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  display: block;
+  width: 48px;
+  text-align: right;
+}
+
+input,
+textarea {
+  font: 1em sans-serif;
+  color: #3c4048;
+  width: 500px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #999;
+  border-radius: 20px 0px;
+  background: #d9d9d9;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #00abb3;
+}
+
+textarea {
+  vertical-align: top;
+  height: 10em;
+  resize: vertical;
+}
+
+label {
+  font-family: "Bangers";
+  font-size: 32px;
+  color: #3c4048;
+}
+
+input {
+  height: 50px;
+}
+
+.botao {
+  margin-top: 32px;
+  display: inline-block;
+  padding: 24px 48px;
+  background: #00abb3;
+  border-radius: 40px 0px;
+  font-family: "bangers";
+  color: #3c4048;
+  font-size: 24px;
+  max-width: max-content;
+  border: none;
+  cursor: pointer;
+  grid-row: 3;
+  grid-column: 2;
+  display: flex;
+  align-items: center;
+}
+
+.botao:hover {
+  background-color: #04878d;
+}
